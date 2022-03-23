@@ -1,0 +1,2959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2E4C1F19E2CDC500000000 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037719E2CDC500000000 /* SLKTypingIndicatorView.m */; };
+		CF2E4C1F19E2CDC500000001 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037719E2CDC500000000 /* SLKTypingIndicatorView.m */; };
+		CF2E4C1F206BAA2200000000 /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377206BAA2200000000 /* SLKTextInput+Implementation.m */; };
+		CF2E4C1F206BAA2200000001 /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377206BAA2200000000 /* SLKTextInput+Implementation.m */; };
+		CF2E4C1F291532DC00000000 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377291532DC00000000 /* SLKInputAccessoryView.m */; };
+		CF2E4C1F291532DC00000001 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377291532DC00000000 /* SLKInputAccessoryView.m */; };
+		CF2E4C1F307614CB00000000 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377307614CB00000000 /* UIScrollView+SLKAdditions.m */; };
+		CF2E4C1F307614CB00000001 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377307614CB00000000 /* UIScrollView+SLKAdditions.m */; };
+		CF2E4C1F47CE378E00000000 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D037747CE378E00000000 /* Logger.swift */; };
+		CF2E4C1F47CE378E00000001 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D037747CE378E00000000 /* Logger.swift */; };
+		CF2E4C1F51E3BECE00000000 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037751E3BECE00000000 /* SLKTextViewController.m */; };
+		CF2E4C1F51E3BECE00000001 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037751E3BECE00000000 /* SLKTextViewController.m */; };
+		CF2E4C1F52C88A4900000000 /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037752C88A4900000000 /* PINOperationGroup.m */; };
+		CF2E4C1F52C88A4900000001 /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037752C88A4900000000 /* PINOperationGroup.m */; };
+		CF2E4C1F59B7DCFF00000000 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037759B7DCFF00000000 /* SLKTextInputbar.m */; };
+		CF2E4C1F59B7DCFF00000001 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D037759B7DCFF00000000 /* SLKTextInputbar.m */; };
+		CF2E4C1F5B41808800000000 /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D03775B41808800000000 /* SLKTextView+SLKAdditions.m */; };
+		CF2E4C1F5B41808800000001 /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D03775B41808800000000 /* SLKTextView+SLKAdditions.m */; };
+		CF2E4C1FA8CFA78500000000 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377A8CFA78500000000 /* SLKTextView.m */; };
+		CF2E4C1FA8CFA78500000001 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377A8CFA78500000000 /* SLKTextView.m */; };
+		CF2E4C1FAADF7C0100000000 /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377AADF7C0100000000 /* PINOperationQueue.m */; };
+		CF2E4C1FAADF7C0100000001 /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377AADF7C0100000000 /* PINOperationQueue.m */; };
+		CF2E4C1FC482FAD000000000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377C482FAD000000000 /* ViewController.swift */; };
+		CF2E4C1FC482FAD000000001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377C482FAD000000000 /* ViewController.swift */; };
+		CF2E4C1FCCA3FEB600000000 /* HookEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377CCA3FEB600000000 /* HookEngine.m */; };
+		CF2E4C1FCCA3FEB600000001 /* HookEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377CCA3FEB600000000 /* HookEngine.m */; };
+		CF2E4C1FD7CDC2EF00000000 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377D7CDC2EF00000000 /* UIView+SLKAdditions.m */; };
+		CF2E4C1FD7CDC2EF00000001 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377D7CDC2EF00000000 /* UIView+SLKAdditions.m */; };
+		CF2E4C1FD87A602B00000000 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377D87A602B00000000 /* UIResponder+SLKAdditions.m */; };
+		CF2E4C1FD87A602B00000001 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377D87A602B00000000 /* UIResponder+SLKAdditions.m */; };
+		CF2E4C1FDF75164300000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377DF75164300000000 /* AppDelegate.swift */; };
+		CF2E4C1FDF75164300000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D0377DF75164300000000 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E63A6C13F02B6700000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E313F02B6600000000;
+		};
+		D6E63A6C368AED4500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E3368AED4400000000;
+		};
+		D6E63A6C6FAFABA900000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E36FAFABA800000000;
+		};
+		D6E63A6C724AF28900000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D96A45724AF28800000000;
+		};
+		D6E63A6C89EDABB900000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E389EDABB800000000;
+		};
+		D6E63A6C8EE115A100000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E38EE115A000000000;
+		};
+		D6E63A6CD657549F00000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E3D657549E00000000;
+		};
+		D6E63A6CE33FBC9700000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E3E33FBC9600000000;
+		};
+		D6E63A6CECF22EDD00000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBDF8DBBAF7489000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119858E3ECF22EDC00000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109D037700B7710000000000 /* libodules-Logging-Logging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libodules-Logging-Logging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037702B3233C00000000 /* libModules-HookEngine-HookEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libModules-HookEngine-HookEngine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377080CA0E200000000 /* lib_idx_HookEngine_58F78BE5_ios_min15.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_HookEngine_58F78BE5_ios_min15.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D03770B99AF8400000000 /* lib_idx_PINOperation_4244CB96_ios_min15.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_PINOperation_4244CB96_ios_min15.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D03770BB1AEEC00000000 /* SLKUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKUIConstants.h; path = Source/SLKUIConstants.h; sourceTree = "<group>"; };
+		109D037712AA7EB200000000 /* _idx_Logging_F5511344_ios_min15.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Logging_F5511344_ios_min15.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037713D2835C00000000 /* lib_idx_HookEngine_58F78BE5_ios_min9.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_HookEngine_58F78BE5_ios_min9.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377144A126A00000000 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SLKAdditions.h"; path = "Source/UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D037718B01F3600000000 /* PINOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationQueue.h; path = pod_support/Headers/Public/PINOperation_cxx/PINOperationQueue.h; sourceTree = "<group>"; };
+		109D037719E2CDC500000000 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SLKTypingIndicatorView.m; path = Source/SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		109D0377206BAA2200000000 /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SLKTextInput+Implementation.m"; path = "Source/SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		109D037725A23CAE00000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Application/Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		109D037728ED92F200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min9.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_SlackTextViewController_BC9F2BB1_ios_min9.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377291532DC00000000 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SLKInputAccessoryView.m; path = Source/SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		109D03772C5A581B00000000 /* SLKTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextViewController.h; path = Source/SLKTextViewController.h; sourceTree = "<group>"; };
+		109D03772DDE872F00000000 /* PINOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationQueue.h; path = Source/PINOperationQueue.h; sourceTree = "<group>"; };
+		109D03772F46261900000000 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorProtocol.h; path = Source/SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		109D03772F8F9D6900000000 /* PINOperationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationGroup.h; path = pod_support/Headers/Public/PINOperation_cxx/PINOperationGroup.h; sourceTree = "<group>"; };
+		109D0377307614CB00000000 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SLKAdditions.m"; path = "Source/UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		109D0377316D341400000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Modules/Login/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		109D037734370F7C00000000 /* PINOperationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationGroup.h; path = Source/PINOperationGroup.h; sourceTree = "<group>"; };
+		109D0377345821D600000000 /* PINOperationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationMacros.h; path = pod_support/Headers/Public/PINOperation_cxx/PINOperationMacros.h; sourceTree = "<group>"; };
+		109D03773B9DBEFB00000000 /* SLKTextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextInput.h; path = Source/SLKTextInput.h; sourceTree = "<group>"; };
+		109D03773D5CCD5B00000000 /* SLKTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextViewController.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTextViewController.h; sourceTree = "<group>"; };
+		109D03773ED9079800000000 /* SLKTextInputbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextInputbar.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTextInputbar.h; sourceTree = "<group>"; };
+		109D03773FDD7ACF00000000 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SLKTextView+SLKAdditions.h"; path = "pod_support/Headers/Public/SlackTextViewController/SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D0377424F0CD100000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "Bazel101.xcodeproj/.tulsi/tulsi-execution-root/bazel-tulsi-includes/x/x/Application/ios-app-intermediates/Info.plist"; sourceTree = SOURCE_ROOT; };
+		109D037745047AC800000000 /* SLKTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextView.h; path = Source/SLKTextView.h; sourceTree = "<group>"; };
+		109D037745512F9200000000 /* libpplication-Application.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libpplication-Application.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037747CE378E00000000 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Modules/Logging/Sources/Logger.swift; sourceTree = "<group>"; };
+		109D037749A2D0A300000000 /* PINOperationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationGroup.h; path = pod_support/Headers/Public/PINOperation/PINOperationGroup.h; sourceTree = "<group>"; };
+		109D03774DC792BA00000000 /* PINOperationTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationTypes.h; path = pod_support/Headers/Public/PINOperation_cxx/PINOperationTypes.h; sourceTree = "<group>"; };
+		109D037750D4D1A500000000 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SLKAdditions.h"; path = "pod_support/Headers/Public/SlackTextViewController/UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D037751E3BECE00000000 /* SLKTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SLKTextViewController.m; path = Source/SLKTextViewController.m; sourceTree = "<group>"; };
+		109D037752C88A4900000000 /* PINOperationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PINOperationGroup.m; path = Source/PINOperationGroup.m; sourceTree = "<group>"; };
+		109D03775504B27A00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Modules/Logging/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		109D0377556DD07D00000000 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SLKTextView+SLKAdditions.h"; path = "Source/SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D037759975E1700000000 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorView.h; path = Source/SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		109D037759B7DCFF00000000 /* SLKTextInputbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SLKTextInputbar.m; path = Source/SLKTextInputbar.m; sourceTree = "<group>"; };
+		109D03775B41808800000000 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SLKTextView+SLKAdditions.m"; path = "Source/SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		109D03775B5811F700000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Modules/HookEngine/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		109D03776303E3FC00000000 /* lib_idx_PINOperation_4244CB96_ios_min9.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_PINOperation_4244CB96_ios_min9.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D03776E0FCD1800000000 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+SLKAdditions.h"; path = "Source/UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D0377718B674A00000000 /* libModules-Logging-Logging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libModules-Logging-Logging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037777229C5B00000000 /* PINOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperation.h; path = pod_support/Headers/Public/PINOperation/PINOperation.h; sourceTree = "<group>"; };
+		109D03777911ACC900000000 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+SLKAdditions.h"; path = "pod_support/Headers/Public/SlackTextViewController/UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D0377811B486800000000 /* libodules-HookEngine-HookEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libodules-HookEngine-HookEngine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037786C4C78200000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Modules/Home/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		109D03778EBA293A00000000 /* _idx_Logging_F5511344_ios_min9.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Logging_F5511344_ios_min9.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037792F80A5800000000 /* HookEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HookEngine.h; path = Modules/HookEngine/PublicHeaders/HookEngine/HookEngine.h; sourceTree = "<group>"; };
+		109D037793C4E8A000000000 /* PINOperationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationMacros.h; path = pod_support/Headers/Public/PINOperation/PINOperationMacros.h; sourceTree = "<group>"; };
+		109D03779574145A00000000 /* _idx_Application_27A3D84C_ios_min15.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Application_27A3D84C_ios_min15.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D037799918D6700000000 /* PINOperationTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationTypes.h; path = Source/PINOperationTypes.h; sourceTree = "<group>"; };
+		109D0377A0C5B62800000000 /* PINOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperation.h; path = Source/PINOperation.h; sourceTree = "<group>"; };
+		109D0377A796132400000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = Application/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		109D0377A842CABD00000000 /* SLKTextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextInput.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTextInput.h; sourceTree = "<group>"; };
+		109D0377A8CFA78500000000 /* SLKTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SLKTextView.m; path = Source/SLKTextView.m; sourceTree = "<group>"; };
+		109D0377AADF7C0100000000 /* PINOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PINOperationQueue.m; path = Source/PINOperationQueue.m; sourceTree = "<group>"; };
+		109D0377AE791D1200000000 /* SLKTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextView.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTextView.h; sourceTree = "<group>"; };
+		109D0377AFD5585C00000000 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLKAdditions.h"; path = "pod_support/Headers/Public/SlackTextViewController/UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D0377B26EFAE700000000 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLKAdditions.h"; path = "Source/UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		109D0377B5925DF300000000 /* PINOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperation.h; path = pod_support/Headers/Public/PINOperation_cxx/PINOperation.h; sourceTree = "<group>"; };
+		109D0377B9B047E200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min15.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_SlackTextViewController_BC9F2BB1_ios_min15.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377BCC6C1DB00000000 /* PINOperationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationMacros.h; path = Source/PINOperationMacros.h; sourceTree = "<group>"; };
+		109D0377BE19C0D500000000 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKInputAccessoryView.h; path = Source/SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		109D0377BEE16C5800000000 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKInputAccessoryView.h; path = pod_support/Headers/Public/SlackTextViewController/SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		109D0377C40A254000000000 /* ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377C482FAD000000000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Application/Sources/ViewController.swift; sourceTree = "<group>"; };
+		109D0377C497CD2700000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Application/Info.plist; sourceTree = "<group>"; };
+		109D0377C71BB13600000000 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorView.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		109D0377CB032F6D00000000 /* SLKUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKUIConstants.h; path = pod_support/Headers/Public/SlackTextViewController/SLKUIConstants.h; sourceTree = "<group>"; };
+		109D0377CCA3FEB600000000 /* HookEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HookEngine.m; path = Modules/HookEngine/Sources/HookEngine.m; sourceTree = "<group>"; };
+		109D0377CD7516D900000000 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorProtocol.h; path = pod_support/Headers/Public/SlackTextViewController/SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		109D0377D7CDC2EF00000000 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+SLKAdditions.m"; path = "Source/UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		109D0377D87A602B00000000 /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+SLKAdditions.m"; path = "Source/UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		109D0377DBCDF8D100000000 /* PINOperationTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationTypes.h; path = pod_support/Headers/Public/PINOperation/PINOperationTypes.h; sourceTree = "<group>"; };
+		109D0377DF75164300000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/Sources/AppDelegate.swift; sourceTree = "<group>"; };
+		109D0377E68C670900000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Application/Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109D0377E929BD3A00000000 /* _idx_Application_27A3D84C_ios_min9.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Application_27A3D84C_ios_min9.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377F4340CB600000000 /* SLKTextInputbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLKTextInputbar.h; path = Source/SLKTextInputbar.h; sourceTree = "<group>"; };
+		109D0377FE80010800000000 /* libApplication-Application.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libApplication-Application.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109D0377FF50A25000000000 /* PINOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PINOperationQueue.h; path = pod_support/Headers/Public/PINOperation/PINOperationQueue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C099D5F40918798200000000 /* SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377BEE16C5800000000 /* SLKInputAccessoryView.h */,
+				109D0377A842CABD00000000 /* SLKTextInput.h */,
+				109D03773ED9079800000000 /* SLKTextInputbar.h */,
+				109D03773FDD7ACF00000000 /* SLKTextView+SLKAdditions.h */,
+				109D0377AE791D1200000000 /* SLKTextView.h */,
+				109D03773D5CCD5B00000000 /* SLKTextViewController.h */,
+				109D0377CD7516D900000000 /* SLKTypingIndicatorProtocol.h */,
+				109D0377C71BB13600000000 /* SLKTypingIndicatorView.h */,
+				109D0377CB032F6D00000000 /* SLKUIConstants.h */,
+				109D037750D4D1A500000000 /* UIResponder+SLKAdditions.h */,
+				109D0377AFD5585C00000000 /* UIScrollView+SLKAdditions.h */,
+				109D03777911ACC900000000 /* UIView+SLKAdditions.h */,
+			);
+			name = SlackTextViewController;
+			sourceTree = "<group>";
+		};
+		C099D5F40BE1BBBB00000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				109D03779574145A00000000 /* _idx_Application_27A3D84C_ios_min15.0.framework */,
+				109D0377E929BD3A00000000 /* _idx_Application_27A3D84C_ios_min9.0.framework */,
+				109D037712AA7EB200000000 /* _idx_Logging_F5511344_ios_min15.0.framework */,
+				109D03778EBA293A00000000 /* _idx_Logging_F5511344_ios_min9.0.framework */,
+				109D0377080CA0E200000000 /* lib_idx_HookEngine_58F78BE5_ios_min15.0.a */,
+				109D037713D2835C00000000 /* lib_idx_HookEngine_58F78BE5_ios_min9.0.a */,
+				109D03770B99AF8400000000 /* lib_idx_PINOperation_4244CB96_ios_min15.0.a */,
+				109D03776303E3FC00000000 /* lib_idx_PINOperation_4244CB96_ios_min9.0.a */,
+				109D0377B9B047E200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min15.0.a */,
+				109D037728ED92F200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min9.0.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		C099D5F4168C14B500000000 /* PINOperation */ = {
+			isa = PBXGroup;
+			children = (
+				109D037777229C5B00000000 /* PINOperation.h */,
+				109D037749A2D0A300000000 /* PINOperationGroup.h */,
+				109D037793C4E8A000000000 /* PINOperationMacros.h */,
+				109D0377FF50A25000000000 /* PINOperationQueue.h */,
+				109D0377DBCDF8D100000000 /* PINOperationTypes.h */,
+			);
+			name = PINOperation;
+			sourceTree = "<group>";
+		};
+		C099D5F4245195F500000000 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				109D037786C4C78200000000 /* BUILD */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C099D5F42A61CC7000000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4B921DE3E00000000 /* @PINOperation */,
+				C099D5F45AC7646B00000000 /* @SlackTextViewController */,
+				C099D5F4E109276100000000 /* Application */,
+				C099D5F4A660633100000000 /* Modules */,
+				C099D5F48B21AC2C00000000 /* Products */,
+			);
+			name = mainGroup;
+			sourceTree = SOURCE_ROOT;
+		};
+		C099D5F434D5381E00000000 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4168C14B500000000 /* PINOperation */,
+				C099D5F48A754C5900000000 /* PINOperation_cxx */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		C099D5F434D5381E00000001 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F40918798200000000 /* SlackTextViewController */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		C099D5F43A8BEF0E00000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377DF75164300000000 /* AppDelegate.swift */,
+				109D0377C482FAD000000000 /* ViewController.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C099D5F43A8BEF0E00000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377CCA3FEB600000000 /* HookEngine.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C099D5F43A8BEF0E00000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				109D037747CE378E00000000 /* Logger.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C099D5F45AC7646B00000000 /* @SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4D27B1A9F00000001 /* Source */,
+				C099D5F4D3D519D100000001 /* pod_support */,
+			);
+			name = "@SlackTextViewController";
+			path = "Bazel101.xcodeproj/.tulsi/tulsi-output-base/external/SlackTextViewController";
+			sourceTree = SOURCE_ROOT;
+		};
+		C099D5F45EDDB69900000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F45EDDB69900000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		C099D5F45EDDB69900000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4E109276100000001 /* Application */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		C099D5F46F5F659A00000000 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				109D03775504B27A00000000 /* BUILD */,
+				C099D5F43A8BEF0E00000002 /* Sources */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		C099D5F48A754C5900000000 /* PINOperation_cxx */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377B5925DF300000000 /* PINOperation.h */,
+				109D03772F8F9D6900000000 /* PINOperationGroup.h */,
+				109D0377345821D600000000 /* PINOperationMacros.h */,
+				109D037718B01F3600000000 /* PINOperationQueue.h */,
+				109D03774DC792BA00000000 /* PINOperationTypes.h */,
+			);
+			name = PINOperation_cxx;
+			sourceTree = "<group>";
+		};
+		C099D5F48B21AC2C00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F40BE1BBBB00000000 /* Indexer */,
+				C099D5F4936AAD3500000000 /* bazel-tulsi-includes */,
+				109D0377C40A254000000000 /* ios-app.app */,
+				109D0377FE80010800000000 /* libApplication-Application.a */,
+				109D037702B3233C00000000 /* libModules-HookEngine-HookEngine.a */,
+				109D0377718B674A00000000 /* libModules-Logging-Logging.a */,
+				109D0377811B486800000000 /* libodules-HookEngine-HookEngine.a */,
+				109D037700B7710000000000 /* libodules-Logging-Logging.a */,
+				109D037745512F9200000000 /* libpplication-Application.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C099D5F4936AAD3500000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F45EDDB69900000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		C099D5F49D5887EB00000000 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377316D341400000000 /* BUILD */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C099D5F4A660633100000000 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4245195F500000000 /* Home */,
+				C099D5F4E3387CA300000000 /* HookEngine */,
+				C099D5F46F5F659A00000000 /* Logging */,
+				C099D5F49D5887EB00000000 /* Login */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		C099D5F4A93A2E9D00000000 /* ios-app-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377424F0CD100000000 /* Info.plist */,
+			);
+			name = "ios-app-intermediates";
+			sourceTree = "<group>";
+		};
+		C099D5F4B8520E7C00000000 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4E3387CA300000001 /* HookEngine */,
+			);
+			name = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		C099D5F4B9036E6100000000 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F434D5381E00000000 /* Public */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C099D5F4B9036E6100000001 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F434D5381E00000001 /* Public */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C099D5F4B921DE3E00000000 /* @PINOperation */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4D27B1A9F00000000 /* Source */,
+				C099D5F4D3D519D100000000 /* pod_support */,
+			);
+			name = "@PINOperation";
+			path = "Bazel101.xcodeproj/.tulsi/tulsi-output-base/external/PINOperation";
+			sourceTree = SOURCE_ROOT;
+		};
+		C099D5F4BDC4047C00000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F162C8D68814499600000000 /* LaunchScreen.storyboard */,
+				F162C8D69C4D0E6200000000 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C099D5F4D27B1A9F00000000 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377A0C5B62800000000 /* PINOperation.h */,
+				109D037734370F7C00000000 /* PINOperationGroup.h */,
+				109D037752C88A4900000000 /* PINOperationGroup.m */,
+				109D0377BCC6C1DB00000000 /* PINOperationMacros.h */,
+				109D03772DDE872F00000000 /* PINOperationQueue.h */,
+				109D0377AADF7C0100000000 /* PINOperationQueue.m */,
+				109D037799918D6700000000 /* PINOperationTypes.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C099D5F4D27B1A9F00000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377BE19C0D500000000 /* SLKInputAccessoryView.h */,
+				109D0377291532DC00000000 /* SLKInputAccessoryView.m */,
+				109D0377206BAA2200000000 /* SLKTextInput+Implementation.m */,
+				109D03773B9DBEFB00000000 /* SLKTextInput.h */,
+				109D0377F4340CB600000000 /* SLKTextInputbar.h */,
+				109D037759B7DCFF00000000 /* SLKTextInputbar.m */,
+				109D0377556DD07D00000000 /* SLKTextView+SLKAdditions.h */,
+				109D03775B41808800000000 /* SLKTextView+SLKAdditions.m */,
+				109D037745047AC800000000 /* SLKTextView.h */,
+				109D0377A8CFA78500000000 /* SLKTextView.m */,
+				109D03772C5A581B00000000 /* SLKTextViewController.h */,
+				109D037751E3BECE00000000 /* SLKTextViewController.m */,
+				109D03772F46261900000000 /* SLKTypingIndicatorProtocol.h */,
+				109D037759975E1700000000 /* SLKTypingIndicatorView.h */,
+				109D037719E2CDC500000000 /* SLKTypingIndicatorView.m */,
+				109D03770BB1AEEC00000000 /* SLKUIConstants.h */,
+				109D0377144A126A00000000 /* UIResponder+SLKAdditions.h */,
+				109D0377D87A602B00000000 /* UIResponder+SLKAdditions.m */,
+				109D0377B26EFAE700000000 /* UIScrollView+SLKAdditions.h */,
+				109D0377307614CB00000000 /* UIScrollView+SLKAdditions.m */,
+				109D03776E0FCD1800000000 /* UIView+SLKAdditions.h */,
+				109D0377D7CDC2EF00000000 /* UIView+SLKAdditions.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C099D5F4D3D519D100000000 /* pod_support */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4B9036E6100000000 /* Headers */,
+			);
+			name = pod_support;
+			sourceTree = "<group>";
+		};
+		C099D5F4D3D519D100000001 /* pod_support */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4B9036E6100000001 /* Headers */,
+			);
+			name = pod_support;
+			sourceTree = "<group>";
+		};
+		C099D5F4E109276100000000 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				109D0377A796132400000000 /* BUILD */,
+				109D0377C497CD2700000000 /* Info.plist */,
+				C099D5F4BDC4047C00000000 /* Resources */,
+				C099D5F43A8BEF0E00000000 /* Sources */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		C099D5F4E109276100000001 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C099D5F4A93A2E9D00000000 /* ios-app-intermediates */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		C099D5F4E3387CA300000000 /* HookEngine */ = {
+			isa = PBXGroup;
+			children = (
+				109D03775B5811F700000000 /* BUILD */,
+				C099D5F4B8520E7C00000000 /* PublicHeaders */,
+				C099D5F43A8BEF0E00000001 /* Sources */,
+			);
+			name = HookEngine;
+			sourceTree = "<group>";
+		};
+		C099D5F4E3387CA300000001 /* HookEngine */ = {
+			isa = PBXGroup;
+			children = (
+				109D037792F80A5800000000 /* HookEngine.h */,
+			);
+			name = HookEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		50D96A45724AF28800000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = C65F72CE40BA04BD00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		119858E30D3C426C00000000 /* odules-HookEngine-HookEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CED102BFFA00000000 /* Build configuration list for PBXNativeTarget "odules-HookEngine-HookEngine" */;
+			buildPhases = (
+				D2807CB59954460600000001 /* build //Modules/HookEngine:HookEngine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "odules-HookEngine-HookEngine";
+			productName = "odules-HookEngine-HookEngine";
+			productReference = 109D0377811B486800000000 /* libodules-HookEngine-HookEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E313F02B6600000000 /* _idx_Logging_F5511344_ios_min15.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE1341E9E800000000 /* Build configuration list for PBXNativeTarget "_idx_Logging_F5511344_ios_min15.0" */;
+			buildPhases = (
+				DF19B6300000000000000004 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Logging_F5511344_ios_min15.0;
+			productName = _idx_Logging_F5511344_ios_min15.0;
+			productReference = 109D037712AA7EB200000000 /* _idx_Logging_F5511344_ios_min15.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119858E3368AED4400000000 /* _idx_HookEngine_58F78BE5_ios_min15.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE1C2E628D00000000 /* Build configuration list for PBXNativeTarget "_idx_HookEngine_58F78BE5_ios_min15.0" */;
+			buildPhases = (
+				DF19B6300000000000000003 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_HookEngine_58F78BE5_ios_min15.0;
+			productName = _idx_HookEngine_58F78BE5_ios_min15.0;
+			productReference = 109D0377080CA0E200000000 /* lib_idx_HookEngine_58F78BE5_ios_min15.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E353B6120600000000 /* Application-Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE260A2B1E00000000 /* Build configuration list for PBXNativeTarget "Application-Application" */;
+			buildPhases = (
+				D2807CB5E697A94700000000 /* build //Application:Application */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "Application-Application";
+			productName = "Application-Application";
+			productReference = 109D0377FE80010800000000 /* libApplication-Application.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E358F3339200000000 /* Modules-Logging-Logging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE8023E7A100000000 /* Build configuration list for PBXNativeTarget "Modules-Logging-Logging" */;
+			buildPhases = (
+				D2807CB5BDE3B46600000000 /* build //Modules/Logging:Logging */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "Modules-Logging-Logging";
+			productName = "Modules-Logging-Logging";
+			productReference = 109D0377718B674A00000000 /* libModules-Logging-Logging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E36FAFABA800000000 /* _idx_HookEngine_58F78BE5_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE410777B300000000 /* Build configuration list for PBXNativeTarget "_idx_HookEngine_58F78BE5_ios_min9.0" */;
+			buildPhases = (
+				DF19B6300000000000000007 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_HookEngine_58F78BE5_ios_min9.0;
+			productName = _idx_HookEngine_58F78BE5_ios_min9.0;
+			productReference = 109D037713D2835C00000000 /* lib_idx_HookEngine_58F78BE5_ios_min9.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E37B625B2E00000000 /* pplication-Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE485289AB00000000 /* Build configuration list for PBXNativeTarget "pplication-Application" */;
+			buildPhases = (
+				D2807CB5E697A94700000001 /* build //Application:Application */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "pplication-Application";
+			productName = "pplication-Application";
+			productReference = 109D037745512F9200000000 /* libpplication-Application.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E37E372F2000000000 /* _idx_Application_27A3D84C_ios_min15.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE03AED01800000000 /* Build configuration list for PBXNativeTarget "_idx_Application_27A3D84C_ios_min15.0" */;
+			buildPhases = (
+				DF19B6300000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+				BE5E5A74D657549F00000000 /* PBXTargetDependency */,
+				BE5E5A7489EDABB900000000 /* PBXTargetDependency */,
+				BE5E5A74368AED4500000000 /* PBXTargetDependency */,
+				BE5E5A7413F02B6700000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Application_27A3D84C_ios_min15.0;
+			productName = _idx_Application_27A3D84C_ios_min15.0;
+			productReference = 109D03779574145A00000000 /* _idx_Application_27A3D84C_ios_min15.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119858E389EDABB800000000 /* _idx_PINOperation_4244CB96_ios_min15.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE29C3C8F800000000 /* Build configuration list for PBXNativeTarget "_idx_PINOperation_4244CB96_ios_min15.0" */;
+			buildPhases = (
+				DF19B6300000000000000002 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_PINOperation_4244CB96_ios_min15.0;
+			productName = _idx_PINOperation_4244CB96_ios_min15.0;
+			productReference = 109D03770B99AF8400000000 /* lib_idx_PINOperation_4244CB96_ios_min15.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E38EE115A000000000 /* _idx_PINOperation_4244CB96_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE46F8A45900000000 /* Build configuration list for PBXNativeTarget "_idx_PINOperation_4244CB96_ios_min9.0" */;
+			buildPhases = (
+				DF19B6300000000000000006 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_PINOperation_4244CB96_ios_min9.0;
+			productName = _idx_PINOperation_4244CB96_ios_min9.0;
+			productReference = 109D03776303E3FC00000000 /* lib_idx_PINOperation_4244CB96_ios_min9.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E3A5CA75BA00000000 /* ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE09DD839000000000 /* Build configuration list for PBXNativeTarget "ios-app" */;
+			buildPhases = (
+				D2807CB558912A7000000000 /* build //Application:ios-app */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "ios-app";
+			productName = "ios-app";
+			productReference = 109D0377C40A254000000000 /* ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		119858E3D657549E00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min15.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE41C4EB7B00000000 /* Build configuration list for PBXNativeTarget "_idx_SlackTextViewController_BC9F2BB1_ios_min15.0" */;
+			buildPhases = (
+				DF19B6300000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+			productName = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+			productReference = 109D0377B9B047E200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min15.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E3DB14295400000000 /* _idx_Application_27A3D84C_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CEC0B2507300000000 /* Build configuration list for PBXNativeTarget "_idx_Application_27A3D84C_ios_min9.0" */;
+			buildPhases = (
+				DF19B6300000000000000005 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+				BE5E5A748EE115A100000000 /* PBXTargetDependency */,
+				BE5E5A746FAFABA900000000 /* PBXTargetDependency */,
+				BE5E5A74ECF22EDD00000000 /* PBXTargetDependency */,
+				BE5E5A74E33FBC9700000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Application_27A3D84C_ios_min9.0;
+			productName = _idx_Application_27A3D84C_ios_min9.0;
+			productReference = 109D0377E929BD3A00000000 /* _idx_Application_27A3D84C_ios_min9.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119858E3E33FBC9600000000 /* _idx_Logging_F5511344_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE58E661B100000000 /* Build configuration list for PBXNativeTarget "_idx_Logging_F5511344_ios_min9.0" */;
+			buildPhases = (
+				DF19B6300000000000000009 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Logging_F5511344_ios_min9.0;
+			productName = _idx_Logging_F5511344_ios_min9.0;
+			productReference = 109D03778EBA293A00000000 /* _idx_Logging_F5511344_ios_min9.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119858E3E56C16D800000000 /* odules-Logging-Logging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CEE3C4B75100000000 /* Build configuration list for PBXNativeTarget "odules-Logging-Logging" */;
+			buildPhases = (
+				D2807CB5BDE3B46600000001 /* build //Modules/Logging:Logging */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "odules-Logging-Logging";
+			productName = "odules-Logging-Logging";
+			productReference = 109D037700B7710000000000 /* libodules-Logging-Logging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E3ECF22EDC00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CEDEF913D000000000 /* Build configuration list for PBXNativeTarget "_idx_SlackTextViewController_BC9F2BB1_ios_min9.0" */;
+			buildPhases = (
+				DF19B6300000000000000008 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+			productName = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+			productReference = 109D037728ED92F200000000 /* lib_idx_SlackTextViewController_BC9F2BB1_ios_min9.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		119858E3FCA671FA00000000 /* Modules-HookEngine-HookEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65F72CE8353191300000000 /* Build configuration list for PBXNativeTarget "Modules-HookEngine-HookEngine" */;
+			buildPhases = (
+				D2807CB59954460600000000 /* build //Modules/HookEngine:HookEngine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5E5A74724AF28900000000 /* PBXTargetDependency */,
+			);
+			name = "Modules-HookEngine-HookEngine";
+			productName = "Modules-HookEngine-HookEngine";
+			productReference = 109D037702B3233C00000000 /* libModules-HookEngine-HookEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBDF8DBBAF7489000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = C65F72CE8926AE3300000000 /* Build configuration list for PBXProject "Bazel101" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C099D5F42A61CC7000000000 /* mainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				119858E353B6120600000000 /* Application-Application */,
+				119858E3FCA671FA00000000 /* Modules-HookEngine-HookEngine */,
+				119858E358F3339200000000 /* Modules-Logging-Logging */,
+				50D96A45724AF28800000000 /* _bazel_clean_ */,
+				119858E37E372F2000000000 /* _idx_Application_27A3D84C_ios_min15.0 */,
+				119858E3DB14295400000000 /* _idx_Application_27A3D84C_ios_min9.0 */,
+				119858E3368AED4400000000 /* _idx_HookEngine_58F78BE5_ios_min15.0 */,
+				119858E36FAFABA800000000 /* _idx_HookEngine_58F78BE5_ios_min9.0 */,
+				119858E313F02B6600000000 /* _idx_Logging_F5511344_ios_min15.0 */,
+				119858E3E33FBC9600000000 /* _idx_Logging_F5511344_ios_min9.0 */,
+				119858E389EDABB800000000 /* _idx_PINOperation_4244CB96_ios_min15.0 */,
+				119858E38EE115A000000000 /* _idx_PINOperation_4244CB96_ios_min9.0 */,
+				119858E3D657549E00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min15.0 */,
+				119858E3ECF22EDC00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min9.0 */,
+				119858E3A5CA75BA00000000 /* ios-app */,
+				119858E30D3C426C00000000 /* odules-HookEngine-HookEngine */,
+				119858E3E56C16D800000000 /* odules-Logging-Logging */,
+				119858E37B625B2E00000000 /* pplication-Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2807CB558912A7000000000 /* build //Application:ios-app */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Application:ios-app";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Application:ios-app --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		D2807CB59954460600000000 /* build //Modules/HookEngine:HookEngine */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Modules/HookEngine:HookEngine";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Modules/HookEngine:HookEngine --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		D2807CB59954460600000001 /* build //Modules/HookEngine:HookEngine */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Modules/HookEngine:HookEngine";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Modules/HookEngine:HookEngine --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		D2807CB5BDE3B46600000000 /* build //Modules/Logging:Logging */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Modules/Logging:Logging";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Modules/Logging:Logging --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		D2807CB5BDE3B46600000001 /* build //Modules/Logging:Logging */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Modules/Logging:Logging";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Modules/Logging:Logging --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		D2807CB5E697A94700000000 /* build //Application:Application */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Application:Application";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Application:Application --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose \n";
+		};
+		D2807CB5E697A94700000001 /* build //Application:Application */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //Application:Application";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Application:Application --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF19B6300000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1FDF75164300000000 /* AppDelegate.swift in Sources */,
+				CF2E4C1FC482FAD000000000 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F291532DC00000000 /* SLKInputAccessoryView.m in Sources */,
+				CF2E4C1F206BAA2200000000 /* SLKTextInput+Implementation.m in Sources */,
+				CF2E4C1F59B7DCFF00000000 /* SLKTextInputbar.m in Sources */,
+				CF2E4C1F5B41808800000000 /* SLKTextView+SLKAdditions.m in Sources */,
+				CF2E4C1FA8CFA78500000000 /* SLKTextView.m in Sources */,
+				CF2E4C1F51E3BECE00000000 /* SLKTextViewController.m in Sources */,
+				CF2E4C1F19E2CDC500000000 /* SLKTypingIndicatorView.m in Sources */,
+				CF2E4C1FD87A602B00000000 /* UIResponder+SLKAdditions.m in Sources */,
+				CF2E4C1F307614CB00000000 /* UIScrollView+SLKAdditions.m in Sources */,
+				CF2E4C1FD7CDC2EF00000000 /* UIView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F52C88A4900000000 /* PINOperationGroup.m in Sources */,
+				CF2E4C1FAADF7C0100000000 /* PINOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1FCCA3FEB600000000 /* HookEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F47CE378E00000000 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1FDF75164300000001 /* AppDelegate.swift in Sources */,
+				CF2E4C1FC482FAD000000001 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F52C88A4900000001 /* PINOperationGroup.m in Sources */,
+				CF2E4C1FAADF7C0100000001 /* PINOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1FCCA3FEB600000001 /* HookEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F291532DC00000001 /* SLKInputAccessoryView.m in Sources */,
+				CF2E4C1F206BAA2200000001 /* SLKTextInput+Implementation.m in Sources */,
+				CF2E4C1F59B7DCFF00000001 /* SLKTextInputbar.m in Sources */,
+				CF2E4C1F5B41808800000001 /* SLKTextView+SLKAdditions.m in Sources */,
+				CF2E4C1FA8CFA78500000001 /* SLKTextView.m in Sources */,
+				CF2E4C1F51E3BECE00000001 /* SLKTextViewController.m in Sources */,
+				CF2E4C1F19E2CDC500000001 /* SLKTypingIndicatorView.m in Sources */,
+				CF2E4C1FD87A602B00000001 /* UIResponder+SLKAdditions.m in Sources */,
+				CF2E4C1F307614CB00000001 /* UIScrollView+SLKAdditions.m in Sources */,
+				CF2E4C1FD7CDC2EF00000001 /* UIView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19B6300000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CF2E4C1F47CE378E00000001 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5E5A7413F02B6700000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E313F02B6600000000 /* _idx_Logging_F5511344_ios_min15.0 */;
+			targetProxy = D6E63A6C13F02B6700000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A74368AED4500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E3368AED4400000000 /* _idx_HookEngine_58F78BE5_ios_min15.0 */;
+			targetProxy = D6E63A6C368AED4500000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A746FAFABA900000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E36FAFABA800000000 /* _idx_HookEngine_58F78BE5_ios_min9.0 */;
+			targetProxy = D6E63A6C6FAFABA900000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A74724AF28900000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D96A45724AF28800000000 /* _bazel_clean_ */;
+			targetProxy = D6E63A6C724AF28900000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A7489EDABB900000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E389EDABB800000000 /* _idx_PINOperation_4244CB96_ios_min15.0 */;
+			targetProxy = D6E63A6C89EDABB900000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A748EE115A100000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E38EE115A000000000 /* _idx_PINOperation_4244CB96_ios_min9.0 */;
+			targetProxy = D6E63A6C8EE115A100000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A74D657549F00000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E3D657549E00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min15.0 */;
+			targetProxy = D6E63A6CD657549F00000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A74E33FBC9700000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E3E33FBC9600000000 /* _idx_Logging_F5511344_ios_min9.0 */;
+			targetProxy = D6E63A6CE33FBC9700000000 /* PBXContainerItemProxy */;
+		};
+		BE5E5A74ECF22EDD00000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119858E3ECF22EDC00000000 /* _idx_SlackTextViewController_BC9F2BB1_ios_min9.0 */;
+			targetProxy = D6E63A6CECF22EDD00000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F162C8D68814499600000000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109D0377E68C670900000000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F162C8D69C4D0E6200000000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109D037725A23CAE00000000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C8AEB027EA98F000095C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Debug;
+		};
+		42C8AEB127EA98F000095C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Release;
+		};
+		42C8AEB227EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEB327EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEB427EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEB527EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEB627EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEB727EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEB827EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEB927EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEBA27EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEBB27EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEBC27EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEBD27EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEBE27EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEBF27EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEC027EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEC127EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEC227EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEC327EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEC427EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEC527EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		42C8AEC627EA98F000095C66 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		42C8AEC727EA98F000095C66 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471E44C0F80900000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CXX = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				LD = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				LDPLUSPLUS = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_EXEC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/swiftc_stub.py";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = Bazel101;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "Application-Application";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "Modules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "Modules-Logging-Logging";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -warnings-as-errors -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/HookEngine.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/SlackTextViewController/SlackTextViewController_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/SlackTextViewController/SlackTextViewController_module_map/module.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/PINOperation/PINOperation_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/PINOperation/PINOperation_module_map/module.modulemap";
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min15.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Application";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Private/SlackTextViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/SlackTextViewController/",
+					"$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Public/SlackTextViewController/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=SlackTextViewController",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Private/PINOperation-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/PINOperation/",
+					"$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Public/PINOperation/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=PINOperation",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min15.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -warnings-as-errors -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/HookEngine.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/SlackTextViewController/SlackTextViewController_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/SlackTextViewController/SlackTextViewController_module_map/module.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/PINOperation/PINOperation_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/PINOperation/PINOperation_module_map/module.modulemap";
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min9.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Application";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Private/PINOperation-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/PINOperation/",
+					"$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Public/PINOperation/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=PINOperation",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Private/SlackTextViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/SlackTextViewController/",
+					"$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Public/SlackTextViewController/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=SlackTextViewController",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min9.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging";
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taydu.gvmteam.vn;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F8090000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "odules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "odules-Logging-Logging";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E44C0F80900000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "pplication-Application";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Debug;
+		};
+		51AE471E9658429600000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CXX = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				LD = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				LDPLUSPLUS = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_EXEC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/swiftc_stub.py";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = Bazel101;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "Application-Application";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E9658429600000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "Modules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E9658429600000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "Modules-Logging-Logging";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E9658429600000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -warnings-as-errors -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/HookEngine.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/SlackTextViewController/SlackTextViewController_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/SlackTextViewController/SlackTextViewController_module_map/module.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/PINOperation/PINOperation_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios_x86_64-dbg/bin/external/PINOperation/PINOperation_module_map/module.modulemap";
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min15.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Application";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Private/SlackTextViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/SlackTextViewController/",
+					"$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Public/SlackTextViewController/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=SlackTextViewController",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Private/PINOperation-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/PINOperation/",
+					"$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Public/PINOperation/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=PINOperation",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min15.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min15.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging";
+			};
+			name = Release;
+		};
+		51AE471E9658429600000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -warnings-as-errors -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/HookEngine.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/SlackTextViewController/SlackTextViewController_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/SlackTextViewController/SlackTextViewController_module_map/module.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/PINOperation/PINOperation_module_map.swift.modulemap -Xcc -fmodule-map-file=$(TULSI_EXECUTION_ROOT)/bazel-out/ios-x86_64-min9.0-applebin_ios-ios_x86_64-dbg-ST-97ec17f5313c/bin/external/PINOperation/PINOperation_module_map/module.modulemap";
+				PRODUCT_NAME = _idx_Application_27A3D84C_ios_min9.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Application";
+			};
+			name = Release;
+		};
+		51AE471E965842960000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Private/PINOperation-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation/PINOperation_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/PINOperation",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/PINOperation/",
+					"$(TULSI_EXECUTION_ROOT)/external/PINOperation/pod_support/Headers/Public/PINOperation/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=PINOperation",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_PINOperation_4244CB96_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E965842960000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/HookEngine/PublicHeaders",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_HookEngine_58F78BE5_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E965842960000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Private/SlackTextViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController/pod_support/Headers/Public",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController/SlackTextViewController_module_map",
+					"$(TULSI_OUTPUT_BASE)/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/SlackTextViewController",
+					"$(TULSI_EXECUTION_ROOT)/$(GENDIR)/external/SlackTextViewController/",
+					"$(TULSI_EXECUTION_ROOT)/external/SlackTextViewController/pod_support/Headers/Public/SlackTextViewController/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-fobjc-weak",
+					"-g",
+					"-stdlib=libc++",
+					"-fdiagnostics-show-note-include-stack",
+					"-fno-common",
+					"-fembed-bitcode-marker",
+					"-fmessage-length=0",
+					"-fpascal-strings",
+					"-fstrict-aliasing",
+					"-fmodule-name=SlackTextViewController",
+					"-fmodules",
+					"-DCOCOAPODS=1",
+					"-DDEBUG=1",
+					"-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+					"-DPOD_CONFIGURATION_DEBUG=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SlackTextViewController_BC9F2BB1_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		51AE471E965842960000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Logging_F5511344_ios_min9.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/Modules/Logging";
+			};
+			name = Release;
+		};
+		51AE471E965842960000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taydu.gvmteam.vn;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E965842960000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "odules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E9658429600000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = "odules-Logging-Logging";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471E9658429600000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "pplication-Application";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = Release;
+		};
+		51AE471EBAC5C0F100000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CXX = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				LDPLUSPLUS = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_EXEC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/swiftc_stub.py";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = Bazel101;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Application-Application";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Modules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000003 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Modules-Logging-Logging";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000004 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taydu.gvmteam.vn;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000005 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "odules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000006 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "odules-Logging-Logging";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EBAC5C0F100000007 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "pplication-Application";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		51AE471EC547E88B00000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CXX = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/clang_stub.sh";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				LDPLUSPLUS = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/ld_stub.sh";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_EXEC = "$(PROJECT_FILE_PATH)/.tulsi/Scripts/swiftc_stub.py";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = Bazel101;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Application-Application";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000002 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Modules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000003 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Modules-Logging-Logging";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000004 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taydu.gvmteam.vn;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000005 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/HookEngine:HookEngine";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "odules-HookEngine-HookEngine";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/HookEngine;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000006 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Modules/Logging:Logging";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "odules-Logging-Logging";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Modules/Logging;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		51AE471EC547E88B00000007 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Application:Application";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "pplication-Application";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = Application;
+				TULSI_XCODE_VERSION = 13.0.0.13A233;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65F72CE03AED01800000000 /* Build configuration list for PBXNativeTarget "_idx_Application_27A3D84C_ios_min15.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000004 /* Debug */,
+				51AE471E9658429600000004 /* Release */,
+				42C8AEB427EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEB527EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE09DD839000000000 /* Build configuration list for PBXNativeTarget "ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000E /* Debug */,
+				51AE471E965842960000000E /* Release */,
+				51AE471EBAC5C0F100000004 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000004 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE1341E9E800000000 /* Build configuration list for PBXNativeTarget "_idx_Logging_F5511344_ios_min15.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000008 /* Debug */,
+				51AE471E9658429600000008 /* Release */,
+				42C8AEBC27EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEBD27EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE1C2E628D00000000 /* Build configuration list for PBXNativeTarget "_idx_HookEngine_58F78BE5_ios_min15.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000007 /* Debug */,
+				51AE471E9658429600000007 /* Release */,
+				42C8AEB827EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEB927EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE260A2B1E00000000 /* Build configuration list for PBXNativeTarget "Application-Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000001 /* Debug */,
+				51AE471E9658429600000001 /* Release */,
+				51AE471EBAC5C0F100000001 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE29C3C8F800000000 /* Build configuration list for PBXNativeTarget "_idx_PINOperation_4244CB96_ios_min15.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000006 /* Debug */,
+				51AE471E9658429600000006 /* Release */,
+				42C8AEC027EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEC127EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE40BA04BD00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C8AEB027EA98F000095C66 /* Debug */,
+				42C8AEB127EA98F000095C66 /* Release */,
+				42C8AEB227EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEB327EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE410777B300000000 /* Build configuration list for PBXNativeTarget "_idx_HookEngine_58F78BE5_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000B /* Debug */,
+				51AE471E965842960000000B /* Release */,
+				42C8AEBA27EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEBB27EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE41C4EB7B00000000 /* Build configuration list for PBXNativeTarget "_idx_SlackTextViewController_BC9F2BB1_ios_min15.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000005 /* Debug */,
+				51AE471E9658429600000005 /* Release */,
+				42C8AEC427EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEC527EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE46F8A45900000000 /* Build configuration list for PBXNativeTarget "_idx_PINOperation_4244CB96_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000A /* Debug */,
+				51AE471E965842960000000A /* Release */,
+				42C8AEC227EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEC327EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE485289AB00000000 /* Build configuration list for PBXNativeTarget "pplication-Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000011 /* Debug */,
+				51AE471E9658429600000011 /* Release */,
+				51AE471EBAC5C0F100000007 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000007 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE58E661B100000000 /* Build configuration list for PBXNativeTarget "_idx_Logging_F5511344_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000D /* Debug */,
+				51AE471E965842960000000D /* Release */,
+				42C8AEBE27EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEBF27EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE8023E7A100000000 /* Build configuration list for PBXNativeTarget "Modules-Logging-Logging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000003 /* Debug */,
+				51AE471E9658429600000003 /* Release */,
+				51AE471EBAC5C0F100000003 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000003 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE8353191300000000 /* Build configuration list for PBXNativeTarget "Modules-HookEngine-HookEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000002 /* Debug */,
+				51AE471E9658429600000002 /* Release */,
+				51AE471EBAC5C0F100000002 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000002 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CE8926AE3300000000 /* Build configuration list for PBXProject "Bazel101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000000 /* Debug */,
+				51AE471E9658429600000000 /* Release */,
+				51AE471EBAC5C0F100000000 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CEC0B2507300000000 /* Build configuration list for PBXNativeTarget "_idx_Application_27A3D84C_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000009 /* Debug */,
+				51AE471E9658429600000009 /* Release */,
+				42C8AEB627EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEB727EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CED102BFFA00000000 /* Build configuration list for PBXNativeTarget "odules-HookEngine-HookEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000F /* Debug */,
+				51AE471E965842960000000F /* Release */,
+				51AE471EBAC5C0F100000005 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000005 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CEDEF913D000000000 /* Build configuration list for PBXNativeTarget "_idx_SlackTextViewController_BC9F2BB1_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F8090000000C /* Debug */,
+				51AE471E965842960000000C /* Release */,
+				42C8AEC627EA98F000095C66 /* __TulsiTestRunner_Debug */,
+				42C8AEC727EA98F000095C66 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65F72CEE3C4B75100000000 /* Build configuration list for PBXNativeTarget "odules-Logging-Logging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AE471E44C0F80900000010 /* Debug */,
+				51AE471E9658429600000010 /* Release */,
+				51AE471EBAC5C0F100000006 /* __TulsiTestRunner_Debug */,
+				51AE471EC547E88B00000006 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBDF8DBBAF7489000000000 /* Project object */;
+}

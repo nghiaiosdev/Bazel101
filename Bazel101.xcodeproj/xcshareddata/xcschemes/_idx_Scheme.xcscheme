@@ -1,0 +1,46 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForArchiving="YES">
+                <BuildableReference ReferencedContainer="container:Bazel101.xcodeproj" BuildableName="_idx_Application_27A3D84C_ios_min9.0.framework" BlueprintName="_idx_Application_27A3D84C_ios_min9.0" BuildableIdentifier="primary" BlueprintIdentifier="119858E3DB14295400000000"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForAnalyzing="YES" buildForTesting="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="lib_idx_SlackTextViewController_BC9F2BB1_ios_min15.0.a" BlueprintIdentifier="119858E3D657549E00000000" BlueprintName="_idx_SlackTextViewController_BC9F2BB1_ios_min15.0" ReferencedContainer="container:Bazel101.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="lib_idx_HookEngine_58F78BE5_ios_min9.0.a" BlueprintName="_idx_HookEngine_58F78BE5_ios_min9.0" BlueprintIdentifier="119858E36FAFABA800000000" ReferencedContainer="container:Bazel101.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForArchiving="YES" buildForTesting="YES" buildForProfiling="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="lib_idx_HookEngine_58F78BE5_ios_min15.0.a" BlueprintIdentifier="119858E3368AED4400000000" ReferencedContainer="container:Bazel101.xcodeproj" BlueprintName="_idx_HookEngine_58F78BE5_ios_min15.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForTesting="YES" buildForRunning="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+                <BuildableReference BlueprintName="_idx_SlackTextViewController_BC9F2BB1_ios_min9.0" BuildableIdentifier="primary" BuildableName="lib_idx_SlackTextViewController_BC9F2BB1_ios_min9.0.a" ReferencedContainer="container:Bazel101.xcodeproj" BlueprintIdentifier="119858E3ECF22EDC00000000"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableName="_idx_Logging_F5511344_ios_min15.0.framework" BlueprintIdentifier="119858E313F02B6600000000" ReferencedContainer="container:Bazel101.xcodeproj" BuildableIdentifier="primary" BlueprintName="_idx_Logging_F5511344_ios_min15.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES">
+                <BuildableReference ReferencedContainer="container:Bazel101.xcodeproj" BlueprintName="_idx_Application_27A3D84C_ios_min15.0" BuildableIdentifier="primary" BlueprintIdentifier="119858E37E372F2000000000" BuildableName="_idx_Application_27A3D84C_ios_min15.0.framework"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForProfiling="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForArchiving="YES" buildForTesting="YES">
+                <BuildableReference BuildableName="lib_idx_PINOperation_4244CB96_ios_min15.0.a" BlueprintIdentifier="119858E389EDABB800000000" BlueprintName="_idx_PINOperation_4244CB96_ios_min15.0" BuildableIdentifier="primary" ReferencedContainer="container:Bazel101.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForArchiving="YES" buildForAnalyzing="YES" buildForProfiling="YES">
+                <BuildableReference ReferencedContainer="container:Bazel101.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="119858E38EE115A000000000" BuildableName="lib_idx_PINOperation_4244CB96_ios_min9.0.a" BlueprintName="_idx_PINOperation_4244CB96_ios_min9.0"></BuildableReference>
+            </BuildActionEntry>
+            <BuildActionEntry buildForRunning="YES" buildForTesting="YES" buildForArchiving="YES" buildForProfiling="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BlueprintName="_idx_Logging_F5511344_ios_min9.0" BuildableName="_idx_Logging_F5511344_ios_min9.0.framework" BlueprintIdentifier="119858E3E33FBC9600000000" ReferencedContainer="container:Bazel101.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
+        <Testables></Testables>
+    </TestAction>
+    <LaunchAction selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" debugServiceExtension="internal" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="Debug" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" allowLocationSimulation="YES">
+        <EnvironmentVariables></EnvironmentVariables>
+    </LaunchAction>
+    <ProfileAction useCustomWorkingDirectory="NO" debugDocumentVersioning="YES" buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES"></ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+</Scheme>

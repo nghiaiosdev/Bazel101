@@ -1,0 +1,16 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "Application",
+    "Modules/Home",
+    "Modules/HookEngine",
+    "Modules/Logging",
+    "Modules/Login"
+  ],
+  "projectName" : "Bazel101",
+  "workspaceRoot" : ".."
+}

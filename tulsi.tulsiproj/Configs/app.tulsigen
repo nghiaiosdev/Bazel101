@@ -1,0 +1,86 @@
+{
+  "additionalFilePaths" : [
+    "Application/BUILD",
+    "Modules/HookEngine/BUILD",
+    "Modules/Home/BUILD",
+    "Modules/Logging/BUILD",
+    "Modules/Login/BUILD"
+  ],
+  "buildTargets" : [
+    "//Application:Application",
+    "//Application:ios-app",
+    "//Modules/HookEngine:HookEngine",
+    "//Modules/Logging:Logging"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "UseLegacyBuildSystem" : {
+      "p" : "NO"
+    }
+  },
+  "projectName" : "Bazel101",
+  "sourceFilters" : [
+    "Application/...",
+    "Application/Resources",
+    "Application/Resources/Base.lproj",
+    "Application/Sources",
+    "Modules/...",
+    "Modules/HookEngine",
+    "Modules/HookEngine/PublicHeaders",
+    "Modules/HookEngine/PublicHeaders/HookEngine",
+    "Modules/HookEngine/Sources",
+    "Modules/Logging",
+    "Modules/Logging/Sources",
+    "external/PINOperation",
+    "external/PINOperation/Source",
+    "external/PINOperation/pod_support",
+    "external/PINOperation/pod_support/Headers",
+    "external/PINOperation/pod_support/Headers/Public",
+    "external/PINOperation/pod_support/Headers/Public/PINOperation",
+    "external/PINOperation/pod_support/Headers/Public/PINOperation_cxx",
+    "external/SlackTextViewController",
+    "external/SlackTextViewController/Source",
+    "external/SlackTextViewController/pod_support",
+    "external/SlackTextViewController/pod_support/Headers",
+    "external/SlackTextViewController/pod_support/Headers/Public",
+    "external/SlackTextViewController/pod_support/Headers/Public/SlackTextViewController"
+  ]
+}
